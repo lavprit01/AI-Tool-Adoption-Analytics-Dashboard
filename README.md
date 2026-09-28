@@ -2,7 +2,6 @@
 
 An interactive **Power BI** dashboard analysing how AI tools (ChatGPT, Claude, Midjourney, Bard, Stable Diffusion) are adopted across **countries, industries, company sizes and age groups**, backed by SQL-driven KPIs and a Python regression baseline.
 
-![Home](screenshots/01-home.png)
 
 ## Problem Statement
 Business analysts and decision-makers need a single place to see which AI tools lead in usage, where adoption is growing, and how it differs by industry, company size and region. This project turns [50K+] raw adoption records into a self-serve dashboard for those questions.
@@ -65,10 +64,7 @@ A baseline Linear Regression using `daily_active_users` and `year` to predict `a
 ## Project Structure
 ```
 ├── dashboard/     Power BI file
-├── data/          Dataset
-├── notebooks/     Regression analysis
 ├── screenshots/   Dashboard page previews
-└── docs/          PDF export
 ```
 
 ## Author
